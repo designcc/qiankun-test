@@ -1,0 +1,25 @@
+{
+  "name": "project-server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "fly523 <2218781313@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/project-server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "dev": "nodemon ./lib/project-server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

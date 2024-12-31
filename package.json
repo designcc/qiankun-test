@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev:base": "lerna run dev --scope=project-base",
+    "dev:react": "lerna run dev --scope=project-react",
+    "dev:vue": "lerna run dev --scope=project-vue",
+    "dev:server": "lerna run dev --scope=project-server"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "dependencies": {
+    "qiankun": "^2.10.16",
+    "vite-plugin-qiankun": "^1.0.15"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  }
+}
